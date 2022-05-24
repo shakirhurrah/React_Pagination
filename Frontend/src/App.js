@@ -52,6 +52,7 @@ export default function App() {
 
         </thead>
         <tbody>
+              //displaying data
           {currentTableData(users).map(user => {
             return (
               <tr>
