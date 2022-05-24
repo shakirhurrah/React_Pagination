@@ -1,0 +1,46 @@
+
+h1,
+p {
+  font-family: Lato;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  padding: 2rem;
+  margin-top: 2rem;
+ 
+}
+
+thead tr th {
+  font-weight: 500;
+  text-align: left;
+  background-color: #3f7298;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d8b3e9;
+}
+
+th,
+td {
+  padding: 8px;
+  overflow-wrap: break-word;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+h3 {
+  padding-right: 7rem;
+}
+
+
